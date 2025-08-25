@@ -11,7 +11,7 @@ async function main() {
 main();
 
 function showUserPosts(id) {
-    localStorage.setItem("id100", id);
+    localStorage.setItem("id", id);
     window.location.href = `${window.location.origin}/user.html`
     //window.location.href = `http://127.0.0.1:5500/user.html`
     //how to route to a new page in vanilla java
